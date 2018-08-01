@@ -20,6 +20,11 @@ sourceCompatibility = 1.8
 targetCompatibility = 1.8
 
 repositories {
+
+    maven { url 'http://maven.aliyun.com/nexus/content/repositories/central/' }
+	maven { url "http://118.190.153.23/nexus/content/repositories/snapshots/" }
+	maven { url "http://118.190.153.23/nexus/content/repositories/releases/" }
+    maven { url 'http://repo.spring.io/libs-snapshot' }
     mavenCentral()
 }
 
